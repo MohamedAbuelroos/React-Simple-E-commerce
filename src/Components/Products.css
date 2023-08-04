@@ -1,0 +1,55 @@
+.image {
+  overflow: hidden;
+  padding: 15px;
+  height: 40%; 
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.image img {
+  width: 100%;
+  transition: .3s;
+}
+.card {
+  height: 98% !important;
+  gap: 2%;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  overflow: hidden;
+  border-color: #6610f2 !important;
+}
+.image img:hover {
+  transform: scale(1.1);
+}
+.card .btn {
+  position: absolute;
+  bottom: 15px;
+  left: 50px;
+  transform: translateX(-50%);
+}
+.card .desc {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card .price {
+  position: absolute !important;
+  bottom: 15px !important;
+  left: 15px !important;
+}
+.details {
+  width: 40%;
+    text-align: center;
+    margin: auto;
+    border: none !important;
+}
+.details .image img:hover {
+  transform : scale(1)
+}
+.details .price {
+  left: 50% !important;
+  transform: translateX(-50%);
+  bottom: -30px !important;
+
+}

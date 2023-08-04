@@ -1,0 +1,18 @@
+.container button {
+  transition: .3s;
+  border-color: #6610f2;
+  /* text-transform: capitalize; */
+
+}
+
+.container button:hover {
+  background-color: #6610f2 !important;
+  border-color: #6610f2;
+  color: white;
+}
+.container button.active,
+.container button:focus {
+  background-color:#6610f2 !important;
+  border-color: #6610f2;
+  color: white;
+}
